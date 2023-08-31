@@ -1,0 +1,17 @@
+22:33:51 **** Incremental Build of configuration Debug for project math ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+../main.c:9:17: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+        printf("Mul : %I64x\n",math_mul(0x0FFF1111 , 0x0FFF1111 ) );
+                      ~^~~~
+../main.c:11:35: error: use of undeclared identifier 'n1'
+        printf("Div : %0.2f\n", math_div(n1, n2));
+                                         ^
+../main.c:11:39: error: use of undeclared identifier 'n2'
+        printf("Div : %0.2f\n", math_div(n1, n2));
+                                             ^
+1 warning and 2 errors generated.
+
+22:33:51 Build Failed. 2 errors, 1 warnings. (took 294ms)
+

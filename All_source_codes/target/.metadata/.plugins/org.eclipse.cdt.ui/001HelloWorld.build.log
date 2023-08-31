@@ -1,0 +1,17 @@
+22:54:01 **** Incremental Build of configuration Debug for project 001HelloWorld ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "001HelloWorld.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/All_source_codes/target/001HelloWorld/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001HelloWorld.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001HelloWorld.elf
+ 
+arm-none-eabi-size   001HelloWorld.elf 
+arm-none-eabi-objdump -h -S  001HelloWorld.elf  > "001HelloWorld.list"
+   text	   data	    bss	    dec	    hex	filename
+   3364	    100	   1900	   5364	   14f4	001HelloWorld.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001HelloWorld.list
+ 
+
+22:54:02 Build Finished. 0 errors, 0 warnings. (took 638ms)
+

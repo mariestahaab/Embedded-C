@@ -1,0 +1,41 @@
+22:51:56 **** Build of configuration Debug for project 001HelloWorld ****
+make -j9 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+../Src/sysmem.c:63:1: error: unknown type name 'caddr_t'
+   63 | caddr_t _sbrk(int incr)
+      | ^~~~~~~
+../Src/sysmem.c: In function '_sbrk':
+../Src/sysmem.c:76:25: error: 'caddr_t' undeclared (first use in this function)
+   76 |                 return (caddr_t) -1;
+      |                         ^~~~~~~
+../Src/sysmem.c:76:25: note: each undeclared identifier is reported only once for each function it appears in
+../Src/sysmem.c:81:25: error: expected ';' before 'prev_heap_end'
+   81 |         return (caddr_t) prev_heap_end;
+      |                         ^~~~~~~~~~~~~~
+      |                         ;
+../Src/sysmem.c:67:15: warning: variable 'prev_heap_end' set but not used [-Wunused-but-set-variable]
+   67 |         char *prev_heap_end;
+      |               ^~~~~~~~~~~~~
+../Src/sysmem.c:82:1: warning: control reaches end of non-void function [-Wreturn-type]
+   82 | }
+      | ^
+make: *** [Src/subdir.mk:25: Src/sysmem.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j9 all" terminated with exit code 2. Build might be incomplete.
+22:54:01 **** Incremental Build of configuration Debug for project 001HelloWorld ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "001HelloWorld.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/All_source_codes/target/001HelloWorld/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001HelloWorld.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001HelloWorld.elf
+ 
+arm-none-eabi-size   001HelloWorld.elf 
+arm-none-eabi-objdump -h -S  001HelloWorld.elf  > "001HelloWorld.list"
+   text	   data	    bss	    dec	    hex	filename
+   3364	    100	   1900	   5364	   14f4	001HelloWorld.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001HelloWorld.list
+ 

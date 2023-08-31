@@ -1,0 +1,58 @@
+22:33:41 **** Clean-only build of configuration Debug for project arrays ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf arrays.exe main.d main.o 
+Info: Nothing to build for ASCII
+Info: Nothing to build for Average
+Info: Nothing to build for WhileLoop1to10
+22:33:49 **** Rebuild of configuration Debug for project arrays ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o arrays.exe main.o 
+Info: Nothing to build for arrays_passing
+Info: Nothing to build for arrays_swap
+Info: Nothing to build for bitWise2Numbers
+Info: Nothing to build for bitWiseEvenOdd
+Info: Nothing to build for bitWiseSet
+Info: Nothing to build for constdata
+Info: Nothing to build for dataAlignment
+Info: Nothing to build for forLoopEvenNum
+Info: Nothing to build for forloopNumberPyramid
+Info: Nothing to build for function
+Info: Nothing to build for ifelseBiggestOfTwo
+Info: Nothing to build for ifelseCastVote
+Info: Nothing to build for ifelseifTax
+Info: Nothing to build for ifstatementCastVote
+Info: Nothing to build for macro
+22:33:51 **** Incremental Build of configuration Debug for project math ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+../main.c:9:17: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+        printf("Mul : %I64x\n",math_mul(0x0FFF1111 , 0x0FFF1111 ) );
+                      ~^~~~
+../main.c:11:35: error: use of undeclared identifier 'n1'
+        printf("Div : %0.2f\n", math_div(n1, n2));
+                                         ^
+../main.c:11:39: error: use of undeclared identifier 'n2'
+        printf("Div : %0.2f\n", math_div(n1, n2));
+                                             ^
+1 warning and 2 errors generated.
+Info: Nothing to build for pointer
+Info: Nothing to build for pointer_1
+Info: Nothing to build for pointer_2
+Info: Nothing to build for strings
+Info: Nothing to build for structInit
+Info: Nothing to build for structPacket
+Info: Nothing to build for structPacketBitfield
+Info: Nothing to build for structPointer
+Info: Nothing to build for struct_array
+Info: Nothing to build for student_record
+Info: Nothing to build for switchCaseArea
+Info: Nothing to build for test
+Info: Nothing to build for test2
+Info: Nothing to build for type_casting
+Info: Nothing to build for union
+Info: Nothing to build for unionBitExraction
+Info: Nothing to build for var_address
+Info: Nothing to build for whileLoopEvenNum
