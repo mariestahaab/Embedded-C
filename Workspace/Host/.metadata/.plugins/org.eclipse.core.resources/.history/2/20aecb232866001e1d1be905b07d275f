@@ -1,0 +1,28 @@
+/*
+ * exercise_lec75_ASCII_getchar.c
+ *
+ *  Created on: Oct 8, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdio.h>
+
+int main(void){
+	int numberOfInputs = 0;
+	char input;
+
+	while(numberOfInputs < 6){
+
+		printf("\nEnter a character: ");
+		input = getchar();
+
+		while(getchar() != '\n');
+
+		printf("\nEntered character: ");
+		putchar((int)input);
+
+		numberOfInputs++;
+	}
+
+	return 0;
+}

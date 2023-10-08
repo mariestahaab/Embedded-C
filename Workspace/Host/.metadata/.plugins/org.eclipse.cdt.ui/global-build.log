@@ -1,24 +1,583 @@
-23:02:34 **** Build of configuration Debug for project 000TestProject ****
+22:21:53 **** Clean-only build of configuration Debug for project Average ****
+make clean 
+rm -rf ./main.d ./main.o
+rm -rf Average
+ 
+22:21:57 **** Build of configuration Debug for project Average ****
 make all 
 Building file: ../main.c
-Invoking: GCC C Compiler
+Invoking: Cross GCC Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 000TestProject
-Invoking: MacOS X C Linker
-gcc  -o "000TestProject"  ./main.o   
-Finished building target: 000TestProject
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
  
-01:01:07 **** Incremental Build of configuration Debug for project 000TestProject ****
+22:22:52 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:23:39 **** Incremental Build of configuration Debug for project Average ****
 make all 
 Building file: ../main.c
-Invoking: GCC C Compiler
+Invoking: Cross GCC Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 000TestProject
-Invoking: MacOS X C Linker
-gcc  -o "000TestProject"  ./main.o   
-Finished building target: 000TestProject
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:23:48 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:24:10 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:24:29 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:24:32 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:24:58 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:25:08 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:25:29 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:25:31 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:28:17 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:28:19 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:28:42 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:28:49 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:31:00 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:33:41 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:33:49 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:34:58 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./main.o   
+Finished building target: Average
+ 
+22:42:31 **** Clean-only build of configuration Debug for project Average ****
+make clean 
+rm -rf ./main.d ./main.o
+rm -rf Average
+ 
+22:42:31 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../oneScanfInsteadOfThree.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"oneScanfInsteadOfThree.d" -MT"oneScanfInsteadOfThree.o" -o "oneScanfInsteadOfThree.o" "../oneScanfInsteadOfThree.c"
+Finished building: ../oneScanfInsteadOfThree.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./oneScanfInsteadOfThree.o   
+Finished building target: Average
+ 
+22:44:47 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../oneScanfInsteadOfThree.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"oneScanfInsteadOfThree.d" -MT"oneScanfInsteadOfThree.o" -o "oneScanfInsteadOfThree.o" "../oneScanfInsteadOfThree.c"
+Finished building: ../oneScanfInsteadOfThree.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./oneScanfInsteadOfThree.o   
+Finished building target: Average
+ 
+22:44:54 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:45:03 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:45:17 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../oneScanfInsteadOfThree.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"oneScanfInsteadOfThree.d" -MT"oneScanfInsteadOfThree.o" -o "oneScanfInsteadOfThree.o" "../oneScanfInsteadOfThree.c"
+Finished building: ../oneScanfInsteadOfThree.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./oneScanfInsteadOfThree.o   
+Finished building target: Average
+ 
+22:45:19 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:45:28 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:49:49 **** Clean-only build of configuration Debug for project Average ****
+make clean 
+rm -rf ./oneScanfInsteadOfThree.d ./oneScanfInsteadOfThree.o
+rm -rf Average
+ 
+22:49:49 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+22:52:30 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+../exercise_lec74_charToASCII.c:17:58: error: use of undeclared identifier 'sum'
+        printf("\nASCII Values are: \n %d, %d, %d, %d, %d, %d", sum);
+                                                                ^
+1 error generated.
+make: *** [exercise_lec74_charToASCII.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:52:43 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+22:52:50 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:54:00 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:56:15 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+../exercise_lec74_charToASCII.c:11:6: warning: unused variable 'a' [-Wunused-variable]
+        int a, b, c, d, e, f;
+            ^
+../exercise_lec74_charToASCII.c:11:9: warning: unused variable 'b' [-Wunused-variable]
+        int a, b, c, d, e, f;
+               ^
+../exercise_lec74_charToASCII.c:11:12: warning: unused variable 'c' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                  ^
+../exercise_lec74_charToASCII.c:11:15: warning: unused variable 'd' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                     ^
+../exercise_lec74_charToASCII.c:11:18: warning: unused variable 'e' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                        ^
+../exercise_lec74_charToASCII.c:11:21: warning: unused variable 'f' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                           ^
+../exercise_lec74_charToASCII.c:13:6: warning: unused variable 'valA' [-Wunused-variable]
+        int valA;
+            ^
+7 warnings generated.
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+22:56:21 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+../exercise_lec74_charToASCII.c:11:6: warning: unused variable 'a' [-Wunused-variable]
+        int a, b, c, d, e, f;
+            ^
+../exercise_lec74_charToASCII.c:11:9: warning: unused variable 'b' [-Wunused-variable]
+        int a, b, c, d, e, f;
+               ^
+../exercise_lec74_charToASCII.c:11:12: warning: unused variable 'c' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                  ^
+../exercise_lec74_charToASCII.c:11:15: warning: unused variable 'd' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                     ^
+../exercise_lec74_charToASCII.c:11:18: warning: unused variable 'e' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                        ^
+../exercise_lec74_charToASCII.c:11:21: warning: unused variable 'f' [-Wunused-variable]
+        int a, b, c, d, e, f;
+                           ^
+6 warnings generated.
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+22:56:27 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+22:56:31 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:57:18 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+22:57:20 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+22:58:14 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+22:58:17 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:01:14 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec74_charToASCII.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec74_charToASCII.d" -MT"exercise_lec74_charToASCII.o" -o "exercise_lec74_charToASCII.o" "../exercise_lec74_charToASCII.c"
+Finished building: ../exercise_lec74_charToASCII.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec74_charToASCII.o   
+Finished building target: Average
+ 
+23:01:16 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:01:27 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:01:47 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:04:19 **** Clean-only build of configuration Debug for project Average ****
+make clean 
+rm -rf ./exercise_lec74_charToASCII.d ./exercise_lec74_charToASCII.o
+rm -rf Average
+ 
+23:04:19 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:09:54 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:09:57 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:10:36 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:10:38 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:11:22 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:11:24 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:13:42 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:13:45 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:15:08 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+../exercise_lec75_ASCII_getchar.c:12:7: warning: variable 'input' set but not used [-Wunused-but-set-variable]
+        char input;
+             ^
+1 warning generated.
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:15:39 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:15:43 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:16:22 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:16:25 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:17:18 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:17:21 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:17:35 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:17:42 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:17:45 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:18:02 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:18:56 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:18:59 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:19:59 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+23:20:02 **** Incremental Build of configuration Debug for project Average ****
+make all 
+make: Nothing to be done for `all'.
+23:21:24 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
  

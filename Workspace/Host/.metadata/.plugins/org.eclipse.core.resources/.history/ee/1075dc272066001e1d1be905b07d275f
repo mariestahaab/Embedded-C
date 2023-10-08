@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 8, 2023
+ *      Author: mariestahaab
+ */
+#include <stdio.h>
+
+int main(void){
+	int a, b, average;
+
+	printf("\nEnter A: ");
+	scanf("%d", &a);
+
+	printf("\nEnter B: ");
+	scanf("%d", &b);
+
+	result = a+b;
+
+	printf("\nResult = %d", result);
+
+	return 0;
+}

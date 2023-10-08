@@ -1,0 +1,15 @@
+23:21:24 **** Incremental Build of configuration Debug for project Average ****
+make all 
+Building file: ../exercise_lec75_ASCII_getchar.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_lec75_ASCII_getchar.d" -MT"exercise_lec75_ASCII_getchar.o" -o "exercise_lec75_ASCII_getchar.o" "../exercise_lec75_ASCII_getchar.c"
+Finished building: ../exercise_lec75_ASCII_getchar.c
+ 
+Building target: Average
+Invoking: Cross GCC Linker
+gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
+Finished building target: Average
+ 
+
+23:21:25 Build Finished. 0 errors, 0 warnings. (took 747ms)
+

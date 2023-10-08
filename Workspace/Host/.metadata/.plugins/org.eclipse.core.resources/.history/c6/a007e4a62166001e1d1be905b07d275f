@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 8, 2023
+ *      Author: mariestahaab
+ */
+#include <stdio.h>
+
+int main(void){
+	int a, b, c, sum;
+	float average;
+
+	printf("Enter A: ");
+	fflush(stdout);
+	scanf("%d", &a);
+
+	printf("Enter B: ");
+	fflush(stdout);
+	scanf("%d", &b);
+
+	printf("Enter C: ");
+	fflush(stdout);
+	scanf("%d", &c);
+
+	sum = a+b+c;
+	printf("\nSum = %d", sum);
+
+	average = (float)sum / 3;
+	printf("\nAverage = %.5f", average);
+
+	return 0;
+}

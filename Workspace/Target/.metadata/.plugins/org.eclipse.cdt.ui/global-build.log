@@ -1,23 +1,182 @@
-01:10:28 **** Clean-only build of configuration Debug for project 000TestProject ****
+21:15:00 **** Clean-only build of configuration Debug for project 003Add ****
 make -j9 clean 
 rm -rf ./Startup/startup_stm32f446retx.d ./Startup/startup_stm32f446retx.o
 rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
-rm -rf 000TestProject.elf 000TestProject.list 000TestProject.map default.size.stdout
+rm -rf 003Add.elf 003Add.list 003Add.map default.size.stdout
  
-01:10:33 **** Build of configuration Debug for project 000TestProject ****
+21:15:05 **** Build of configuration Debug for project 003Add ****
 make -j9 all 
 arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
 arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
 arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc -o "000TestProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/000TestProject/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="000TestProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 000TestProject.elf
+arm-none-eabi-gcc -o "003Add.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/003Add/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="003Add.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 003Add.elf
  
-arm-none-eabi-size   000TestProject.elf 
-arm-none-eabi-objdump -h -S  000TestProject.elf  > "000TestProject.list"
+arm-none-eabi-size   003Add.elf 
+arm-none-eabi-objdump -h -S  003Add.elf  > "003Add.list"
    text	   data	    bss	    dec	    hex	filename
-    704	      8	   1568	   2280	    8e8	000TestProject.elf
+   4964	    108	   1908	   6980	   1b44	003Add.elf
 Finished building: default.size.stdout
  
-Finished building: 000TestProject.list
+Finished building: 003Add.list
+ 
+21:15:16 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:26:19 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:28:54 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:32:07 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "003Add.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/003Add/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="003Add.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 003Add.elf
+ 
+arm-none-eabi-size   003Add.elf 
+arm-none-eabi-objdump -h -S  003Add.elf  > "003Add.list"
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+Finished building: 003Add.list
+ 
+21:32:21 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:32:26 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:52:36 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:52:48 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:53:48 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:54:09 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:54:26 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:54:59 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:56:33 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:56:53 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+21:59:10 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+22:00:14 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+22:00:33 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:34:9: warning: implicit declaration of function 'getch'; did you mean 'getc'? [-Wimplicit-function-declaration]
+   34 |         getch();
+      |         ^~~~~
+      |         getc
+arm-none-eabi-gcc -o "003Add.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/003Add/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="003Add.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 003Add.elf
+ 
+arm-none-eabi-size   003Add.elf 
+arm-none-eabi-objdump -h -S  003Add.elf  > "003Add.list"
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+Finished building: 003Add.list
+ 
+22:01:40 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "003Add.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/003Add/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="003Add.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 003Add.elf
+ 
+arm-none-eabi-size   003Add.elf 
+arm-none-eabi-objdump -h -S  003Add.elf  > "003Add.list"
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
+ 
+Finished building: 003Add.list
+ 
+22:02:02 **** Incremental Build of configuration Debug for project 003Add ****
+make -j9 all 
+arm-none-eabi-size   003Add.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	    108	   1908	   6980	   1b44	003Add.elf
+Finished building: default.size.stdout
  
