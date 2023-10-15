@@ -1,0 +1,23 @@
+/*
+ * pointers1.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: mariestahaab
+ */
+
+long long int gData = 0x00007FFF8E3C3824;
+
+#include <stdio.h>
+
+int main(void){
+
+	char *pAddress1;
+
+	pAddress1 = (char*)&gData;
+
+	printf ("Value = %llx\n", gData);
+
+	printf ("Address = %p\n", pAddress1);
+
+	return 0;
+}

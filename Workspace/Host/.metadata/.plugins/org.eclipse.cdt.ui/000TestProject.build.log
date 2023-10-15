@@ -1,4 +1,4 @@
-01:01:07 **** Incremental Build of configuration Debug for project 000TestProject ****
+20:03:05 **** Incremental Build of configuration Debug for project 000TestProject ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "000TestProject"  ./main.o
 Finished building target: 000TestProject
  
 
-01:01:08 Build Finished. 0 errors, 0 warnings. (took 579ms)
+20:03:05 Build Finished. 0 errors, 0 warnings. (took 428ms)
 

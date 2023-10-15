@@ -180,3 +180,541 @@ arm-none-eabi-size   003Add.elf
    4964	    108	   1908	   6980	   1b44	003Add.elf
 Finished building: default.size.stdout
  
+23:30:06 **** Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    704	      8	   1568	   2280	    8e8	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+10:34:00 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+Finished building: led_on.list
+   text	   data	    bss	    dec	    hex	filename
+    704	      8	   1568	   2280	    8e8	led_on.elf
+ 
+Finished building: default.size.stdout
+ 
+23:46:51 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    780	     20	   1564	   2364	    93c	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+23:48:03 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    780	     20	   1564	   2364	    93c	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+23:48:43 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    780	     20	   1564	   2364	    93c	led_on.elf
+Finished building: default.size.stdout
+ 
+23:59:40 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+23:59:48 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+00:02:05 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+00:02:11 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+08:41:11 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Inc/PB13_ON.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Inc/PB13_ON.d" -MT"Inc/PB13_ON.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Inc/PB13_ON.o"
+../Inc/PB13_ON.c: In function 'main':
+../Inc/PB13_ON.c:52:6: error: 'pPortAModeReg' undeclared (first use in this function); did you mean 'pPortBModeReg'?
+   52 |     *pPortAModeReg &= ~(0x11 << 10);
+      |      ^~~~~~~~~~~~~
+      |      pPortBModeReg
+../Inc/PB13_ON.c:52:6: note: each undeclared identifier is reported only once for each function it appears in
+../Inc/PB13_ON.c:59:6: error: 'pPortAOutReg' undeclared (first use in this function); did you mean 'pPortBOutReg'?
+   59 |     *pPortAOutReg |= (0x1 << 5);
+      |      ^~~~~~~~~~~~
+      |      pPortBOutReg
+../Inc/PB13_ON.c:37:19: warning: unused variable 'pPortBOutReg' [-Wunused-variable]
+   37 |         uint32_t *pPortBOutReg  = (uint32_t*) 0x40020414;
+      |                   ^~~~~~~~~~~~
+../Inc/PB13_ON.c:36:19: warning: unused variable 'pPortBModeReg' [-Wunused-variable]
+   36 |         uint32_t *pPortBModeReg = (uint32_t*) 0x40020400;
+      |                   ^~~~~~~~~~~~~
+make: *** [Inc/subdir.mk:19: Inc/PB13_ON.o] Error 1
+"make -j9 all" terminated with exit code 2. Build might be incomplete.
+08:41:31 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Inc/PB13_ON.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Inc/PB13_ON.d" -MT"Inc/PB13_ON.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Inc/PB13_ON.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.macos64_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: ./Src/main.o: in function `main':
+/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/Debug/../Src/main.c:45: multiple definition of `main'; ./Inc/PB13_ON.o:/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/Debug/../Inc/PB13_ON.c:34: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:64: led_on.elf] Error 1
+"make -j9 all" terminated with exit code 2. Build might be incomplete.
+08:42:50 **** Clean-only build of configuration Debug for project led_on ****
+make -j9 clean 
+rm -rf ./Startup/startup_stm32f446retx.d ./Startup/startup_stm32f446retx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf ./Inc/PB13_ON.cyclo ./Inc/PB13_ON.d ./Inc/PB13_ON.o ./Inc/PB13_ON.su
+rm -rf default.size.stdout led_on.elf led_on.list led_on.map
+ 
+08:42:51 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Src/PB13_ON.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/PB13_ON.d" -MT"Src/PB13_ON.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PB13_ON.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+08:46:09 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/PB13_ON.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/PB13_ON.d" -MT"Src/PB13_ON.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PB13_ON.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+08:46:43 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+08:48:32 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+08:53:37 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/PB13_ON.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/PB13_ON.d" -MT"Src/PB13_ON.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PB13_ON.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+08:53:42 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+08:55:44 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+08:58:37 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/PB13_ON.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/PB13_ON.d" -MT"Src/PB13_ON.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PB13_ON.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+08:58:41 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+09:03:16 **** Clean-only build of configuration Debug for project led_on ****
+make -j9 clean 
+rm -rf ./Startup/startup_stm32f446retx.d ./Startup/startup_stm32f446retx.o
+rm -rf ./Src/PB13_ON.cyclo ./Src/PB13_ON.d ./Src/PB13_ON.o ./Src/PB13_ON.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout led_on.elf led_on.list led_on.map
+ 
+09:03:17 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
+arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_on.list
+ 
+09:03:20 **** Incremental Build of configuration Debug for project led_on ****
+make -j9 all 
+arm-none-eabi-size   led_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_on.elf
+Finished building: default.size.stdout
+ 
+09:06:52 **** Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_blink/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_blink.elf
+ 
+arm-none-eabi-size   led_blink.elf 
+arm-none-eabi-objdump -h -S  led_blink.elf  > "led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_blink.list
+ 
+09:13:39 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_blink/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_blink.elf
+ 
+arm-none-eabi-size   led_blink.elf 
+arm-none-eabi-objdump -h -S  led_blink.elf  > "led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    828	      8	   1568	   2404	    964	led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_blink.list
+ 
+09:13:58 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-size   led_blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    828	      8	   1568	   2404	    964	led_blink.elf
+Finished building: default.size.stdout
+ 
+09:16:01 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_blink/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_blink.elf
+ 
+arm-none-eabi-size   led_blink.elf 
+arm-none-eabi-objdump -h -S  led_blink.elf  > "led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    832	      8	   1568	   2408	    968	led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_blink.list
+ 
+09:16:05 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-size   led_blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    832	      8	   1568	   2408	    968	led_blink.elf
+Finished building: default.size.stdout
+ 
+09:16:34 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_blink/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_blink.elf
+ 
+arm-none-eabi-size   led_blink.elf 
+arm-none-eabi-objdump -h -S  led_blink.elf  > "led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    832	      8	   1568	   2408	    968	led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_blink.list
+ 
+09:16:37 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-size   led_blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    832	      8	   1568	   2408	    968	led_blink.elf
+Finished building: default.size.stdout
+ 
+09:18:27 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_blink/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_blink.elf
+ 
+arm-none-eabi-size   led_blink.elf 
+arm-none-eabi-objdump -h -S  led_blink.elf  > "led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_blink.list
+ 
+09:18:33 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-size   led_blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	led_blink.elf
+Finished building: default.size.stdout
+ 
+09:19:03 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_blink/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_blink.elf
+ 
+arm-none-eabi-size   led_blink.elf 
+arm-none-eabi-objdump -h -S  led_blink.elf  > "led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_blink.list
+ 
+09:19:33 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-size   led_blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	led_blink.elf
+Finished building: default.size.stdout
+ 
+09:35:33 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_blink/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_blink.elf
+ 
+arm-none-eabi-size   led_blink.elf 
+arm-none-eabi-objdump -h -S  led_blink.elf  > "led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    804	      8	   1568	   2380	    94c	led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_blink.list
+ 
+09:35:37 **** Incremental Build of configuration Debug for project led_blink ****
+make -j9 all 
+arm-none-eabi-size   led_blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    804	      8	   1568	   2380	    94c	led_blink.elf
+Finished building: default.size.stdout
+ 
+14:07:41 **** Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/pin_read/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    804	      8	   1568	   2380	    94c	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
+14:49:36 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:63:19: warning: unused variable 'pPortCInReg' [-Wunused-variable]
+   63 |         uint32_t *pPortCInReg   = (uint32_t*) 0x40020810;
+      |                   ^~~~~~~~~~~
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/pin_read/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    864	      8	   1568	   2440	    988	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
+14:51:17 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:86:12: error: expected expression before ')' token
+   86 |         if()
+      |            ^
+../Src/main.c:93:42: error: 'maxCount' undeclared (first use in this function)
+   93 |         for(uint32_t count = 0; count <= maxCount; count++);
+      |                                          ^~~~~~~~
+../Src/main.c:93:42: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:84:18: warning: unused variable 'buttonRead' [-Wunused-variable]
+   84 |         uint32_t buttonRead = *pPortCInReg;
+      |                  ^~~~~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j9 all" terminated with exit code 2. Build might be incomplete.
+14:51:39 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:86:12: error: expected expression before ')' token
+   86 |         if()
+      |            ^
+../Src/main.c:84:18: warning: unused variable 'buttonRead' [-Wunused-variable]
+   84 |         uint32_t buttonRead = *pPortCInReg;
+      |                  ^~~~~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j9 all" terminated with exit code 2. Build might be incomplete.
+14:54:44 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/pin_read/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
+14:55:36 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	pin_read.elf
+Finished building: default.size.stdout
+ 
+14:59:35 **** Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	pin_read.elf
+Finished building: default.size.stdout
+ 
+14:59:52 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	pin_read.elf
+Finished building: default.size.stdout
+ 
+15:00:29 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	pin_read.elf
+Finished building: default.size.stdout
+ 
+15:04:48 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/pin_read/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    852	      8	   1568	   2428	    97c	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
+15:04:55 **** Incremental Build of configuration Debug for project pin_read ****
+make -j9 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    852	      8	   1568	   2428	    97c	pin_read.elf
+Finished building: default.size.stdout
+ 

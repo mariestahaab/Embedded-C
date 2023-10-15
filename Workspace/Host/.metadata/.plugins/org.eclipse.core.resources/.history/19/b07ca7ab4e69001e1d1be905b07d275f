@@ -1,0 +1,32 @@
+/*
+ * testingOfBits.c
+ *
+ *  Created on: Oct 12, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+void checkEven(void){
+
+	int32_t number = 0;
+	printf("Enter an Number: ");
+	scanf("%d", &number);
+
+	if(number == 0){
+		printf("Number is 0.\n");
+	}else{
+		if(number & 0x01){
+			printf("Number is ODD.\n");
+		}else{
+			printf("Number is EVEN.\n");
+		}
+	}
+}
+
+int main(void){
+
+	checkEven();
+	return 0;
+}

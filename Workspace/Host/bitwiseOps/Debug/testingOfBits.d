@@ -1,0 +1,1 @@
+testingOfBits.o: ../testingOfBits.c

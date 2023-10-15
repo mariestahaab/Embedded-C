@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdio.h>
+
+int main(){
+
+	//char temp = 17;
+
+	long long int address = 0x00007FFF8E3C3824;
+
+	printf ("%llx\n", address);
+
+	return 0;
+}
+

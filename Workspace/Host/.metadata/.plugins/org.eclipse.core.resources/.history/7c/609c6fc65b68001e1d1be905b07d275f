@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 30, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+bool x = true;
+
+uint8_t character = ;
+uint32_t integer = 10;
+
+int main(void){
+
+	printf("%d Hello World!", integer && character);
+
+	getchar();
+
+	return 0;
+}

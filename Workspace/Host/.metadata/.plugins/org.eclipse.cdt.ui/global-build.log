@@ -581,3 +581,2449 @@ Invoking: Cross GCC Linker
 gcc  -o "Average"  ./exercise_lec75_ASCII_getchar.o   
 Finished building target: Average
  
+15:26:04 **** Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:26:36 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:27:07 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:12:7: warning: unused variable 'temp' [-Wunused-variable]
+        char temp = 17;
+             ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:27:37 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:27:42 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:27:54 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:12:14: warning: multi-character character constant [-Wmultichar]
+        char temp = '15';
+                    ^
+../main.c:12:14: warning: implicit conversion from 'int' to 'char' changes value from 12597 to 53 [-Wconstant-conversion]
+        char temp = '15';
+             ~~~~   ^~~~
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:28:09 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:28:13 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:28:19 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:28:47 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:28:50 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:28:55 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:28:58 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:29:17 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:29:19 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:36:23 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:14:27: error: character <U+00D7> not allowed in an identifier
+        long long int address = 0×00007FFF8E3C3824;
+                                 ^
+../main.c:14:27: error: invalid suffix '×00007FFF8E3C3824' on integer constant
+2 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:36:32 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:14:16: warning: unused variable 'address' [-Wunused-variable]
+        long long int address = 0x00007FFF8E3C3824;
+                      ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:37:08 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:16:18: warning: format specifies type 'unsigned int' but the argument has type 'long long' [-Wformat]
+        printf ("%u\n", address);
+                 ~~     ^~~~~~~
+                 %lld
+../main.c:12:7: warning: unused variable 'temp' [-Wunused-variable]
+        char temp = 17;
+             ^
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:37:22 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:12:7: warning: unused variable 'temp' [-Wunused-variable]
+        char temp = 17;
+             ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:37:29 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:12:7: warning: unused variable 'temp' [-Wunused-variable]
+        char temp = 17;
+             ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:37:33 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:37:45 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:16:18: warning: format specifies type 'unsigned int' but the argument has type 'long long' [-Wformat]
+        printf ("%x\n", address);
+                 ~~     ^~~~~~~
+                 %llx
+../main.c:12:7: warning: unused variable 'temp' [-Wunused-variable]
+        char temp = 17;
+             ^
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:37:55 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:12:7: warning: unused variable 'temp' [-Wunused-variable]
+        char temp = 17;
+             ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:37:59 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:38:01 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:38:14 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+../main.c:16:18: warning: format specifies type 'void *' but the argument has type 'long long' [-Wformat]
+Invoking: GCC C Compiler
+        printf ("%p\n", address);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+                 ~~     ^~~~~~~
+                 %lld
+1 warning generated.
+Finished building target: PointerPractice
+ 
+15:38:29 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:38:39 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:16:12: warning: length modifier 'll' results in undefined behavior or no effect with 'p' conversion specifier [-Wformat]
+        printf ("%llp\n", address);
+                 ~^~~
+../main.c:16:20: warning: format specifies type 'void *' but the argument has type 'long long' [-Wformat]
+        printf ("%llp\n", address);
+                 ~~~~     ^~~~~~~
+                 %lld
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:38:50 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:40:46 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:16:8: warning: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'long' [-Wint-conversion]
+        char* address1 = 0x00007FFF8E3C3824;
+              ^          ~~~~~~~~~~~~~~~~~~
+../main.c:16:8: warning: unused variable 'address1' [-Wunused-variable]
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:41:02 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:16:8: warning: unused variable 'address1' [-Wunused-variable]
+        char* address1 = (char*)0x00007FFF8E3C3824;
+              ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:41:21 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:14:16: warning: unused variable 'address' [-Wunused-variable]
+        long long int address = 0x00007FFF8E3C3824;
+                      ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:41:24 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:48:28 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:20:18: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf ("%d\n", sizeof(char*));
+                 ~~     ^~~~~~~~~~~~~
+                 %lu
+../main.c:21:18: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf ("%d\n", sizeof(int*));
+                 ~~     ^~~~~~~~~~~~
+                 %lu
+../main.c:14:16: warning: unused variable 'address' [-Wunused-variable]
+        long long int address = 0x00007FFF8E3C3824; // invalid pointer definition.
+                      ^
+3 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:48:38 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:20:18: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf ("%d\n", sizeof(char*));
+                 ~~     ^~~~~~~~~~~~~
+                 %lu
+../main.c:21:18: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf ("%d\n", sizeof(int*));
+                 ~~     ^~~~~~~~~~~~
+                 %lu
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:48:59 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:49:01 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+15:49:20 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+15:49:23 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+16:16:50 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+16:16:52 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+16:17:41 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+16:17:44 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+16:18:10 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+16:18:12 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+16:19:28 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+16:19:30 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+16:20:04 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+16:21:49 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+16:21:53 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+16:23:44 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./main.o   
+Finished building target: PointerPractice
+ 
+16:23:46 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:19:58 **** Clean-only build of configuration Debug for project PointerPractice ****
+make clean 
+rm -rf ./main.d ./main.o
+rm -rf PointerPractice
+ 
+18:19:58 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:14:8: warning: variable 'pAddress1' set but not used [-Wunused-but-set-variable]
+        char *pAddress1;
+              ^
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:21:26 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:20:28: error: use of undeclared identifier 'pAddres1'; did you mean 'pAddress1'?
+        printf ("Address = %p\n", pAddres1);
+                                  ^~~~~~~~
+                                  pAddress1
+../pointers1.c:14:8: note: 'pAddress1' declared here
+        char *pAddress1;
+              ^
+1 error generated.
+make: *** [pointers1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:21:45 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:21:49 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:22:03 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:22:05 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:23:20 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:23:24 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:23:50 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:22:55: warning: format specifies type 'unsigned long long' but the argument has type 'char' [-Wformat]
+        printf ("Value at address (%p) = %llx\n", pAddress1, *pAddress1);
+                                         ~~~~                ^~~~~~~~~~
+                                         %hhx
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:24:35 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:24:39 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:24:55 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:22:55: warning: format specifies type 'unsigned long long' but the argument has type 'char' [-Wformat]
+        printf ("Value at address (%p) = %llx\n", pAddress1, *pAddress1);
+                                         ~~~~                ^~~~~~~~~~
+                                         %hhx
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:24:57 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:25:46 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:22:55: warning: format specifies type 'unsigned long long' but the argument has type 'char' [-Wformat]
+        printf ("Value at address (%p) = %llx\n", pAddress1, *pAddress1);
+                                         ~~~~                ^~~~~~~~~~
+                                         %hhx
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:26:05 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:26:07 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:26:40 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:26:42 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:29:05 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:29:07 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:32:29 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:24:53: warning: format specifies type 'unsigned int' but the argument has type 'long long' [-Wformat]
+        printf ("Value at address (%p) = %x\n", pAddress4, *pAddress4);
+                                         ~~                ^~~~~~~~~~
+                                         %llx
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:32:53 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:32:59 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:33:32 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:14:27: warning: format specifies type 'unsigned int' but the argument has type 'long long' [-Wformat]
+        printf ("DATA = %x\n\n", gData);
+                        ~~       ^~~~~
+                        %llx
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:33:38 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:33:40 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:34:25 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:34:28 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:35:52 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:35:55 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:36:10 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:36:11 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:36:19 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:36:20 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:37:17 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:26:51: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+        printf ("Value at address (%p) using llIntPtr = %I64x\n", pAddress4, *pAddress4);
+                                                        ~^~~~
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:37:29 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+../pointers1.c:26:70: warning: format specifies type 'unsigned char' but the argument has type 'long long' [-Wformat]
+        printf ("Value at address (%p) using llIntPtr = %hhx\n", pAddress4, *pAddress4);
+                                                        ~~~~                ^~~~~~~~~~
+                                                        %llx
+1 warning generated.
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:37:36 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+Building file: ../pointers1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointers1.d" -MT"pointers1.o" -o "pointers1.o" "../pointers1.c"
+Finished building: ../pointers1.c
+ 
+Building target: PointerPractice
+Invoking: MacOS X C Linker
+gcc  -o "PointerPractice"  ./pointers1.o   
+Finished building target: PointerPractice
+ 
+18:37:38 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:26:16 **** Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:27:02 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:13:1: error: unknown type name 'uint_32t'; did you mean 'uint32_t'?
+uint_32t number = 10;
+^~~~~~~~
+uint32_t
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h:31:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:27:28 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:28:16 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:14:9: error: expected identifier or '('
+uint8_t = character = 5;
+        ^
+../main.c:19:28: error: expected expression
+        printf("%d Hello World!", );
+                                  ^
+2 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:28:37 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:19:28: error: expected expression
+        printf("%d Hello World!", );
+                                  ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:28:55 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:29:35 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:29:44 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:14:21: error: expected expression
+uint8_t character = ;
+                    ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:29:47 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:29:49 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:30:15 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:30:18 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:30:28 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:30:30 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:30:37 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:30:41 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:46:03 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:14: warning: format specifies type 'int *' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        scanf("%d", input);
+               ~~   ^~~~~
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:46:21 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:14: warning: format specifies type 'int *' but the argument has type 'int32_t' (aka 'int') [-Wformat]
+        scanf("%d", input);
+               ~~   ^~~~~
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:47:23 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:47:45 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:29:12: error: unexpected type name 'int32_t': expected expression
+        checkEven(int32_t input);
+                  ^
+../main.c:29:20: error: expected ')'
+        checkEven(int32_t input);
+                          ^
+../main.c:29:11: note: to match this '('
+        checkEven(int32_t input);
+                 ^
+2 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:48:12 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:48:18 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:48:26 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:49:03 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:30:17: warning: if statement has empty body [-Wempty-body]
+        if(checkEven());
+                       ^
+../main.c:30:17: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:49:31 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:49:35 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:49:44 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:49:47 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+18:50:04 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+18:50:07 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:00:48 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:01:00 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:01:03 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:01:27 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:01:29 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:01:45 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:01:48 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:02:12 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:02:15 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:48:11 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:48:39 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:48:42 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:48:53 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:49:06 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:49:37 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:49:40 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:49:57 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:50:00 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:50:09 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:50:23 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+19:53:32 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:54:00 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+19:59:05 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:51:2: error: call to undeclared function 'clrscr'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        clrscr();
+        ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:00:04 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:51:2: error: call to undeclared function 'system'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        system("clear");
+        ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:00:56 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:9:10: fatal error: 'conio.h' file not found
+#include <conio.h>
+         ^~~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:01:33 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+20:01:36 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+20:02:01 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+20:02:04 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+20:02:34 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+20:02:38 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+make: Nothing to be done for `all'.
+20:02:56 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+20:03:05 **** Incremental Build of configuration Debug for project 000TestProject ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 000TestProject
+Invoking: MacOS X C Linker
+gcc  -o "000TestProject"  ./main.o   
+Finished building target: 000TestProject
+ 
+20:05:15 **** Build of configuration Debug for project ifPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: ifPractice
+Invoking: MacOS X C Linker
+gcc  -o "ifPractice"  ./main.o   
+Finished building target: ifPractice
+ 
+20:07:05 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:17:3: error: 'continue' statement not in loop statement
+                continue;
+                ^
+../main.c:20:3: error: 'break' statement not in loop or switch statement
+                break;
+                ^
+2 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:09:05 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: ifPractice
+Invoking: MacOS X C Linker
+gcc  -o "ifPractice"  ./main.o   
+Finished building target: ifPractice
+ 
+20:09:29 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:09:37 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:09:46 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:09:51 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:10:02 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:11:39 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: ifPractice
+Invoking: MacOS X C Linker
+gcc  -o "ifPractice"  ./main.o   
+Finished building target: ifPractice
+ 
+20:11:44 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:11:59 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: ifPractice
+Invoking: MacOS X C Linker
+gcc  -o "ifPractice"  ./main.o   
+Finished building target: ifPractice
+ 
+20:12:01 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:12:06 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:12:11 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:12:15 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Incremental Build of configuration Debug for project ifPractice ****
+make all 
+make: Nothing to be done for `all'.
+21:04:30 **** Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./main.o   
+Finished building target: bitwiseOps
+ 
+21:04:43 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+21:04:48 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+21:09:06 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:16:17: warning: format specifies type 'int *' but the argument has type 'uint8_t *' (aka 'unsigned char *') [-Wformat]
+        scanf("%d %d", &inputA, &inputB);
+               ~~      ^~~~~~~
+               %s
+../main.c:16:26: warning: format specifies type 'int *' but the argument has type 'uint8_t *' (aka 'unsigned char *') [-Wformat]
+        scanf("%d %d", &inputA, &inputB);
+                  ~~            ^~~~~~~
+                  %s
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./main.o   
+Finished building target: bitwiseOps
+ 
+21:09:41 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./main.o   
+Finished building target: bitwiseOps
+ 
+21:09:44 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+21:11:45 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./main.o   
+Finished building target: bitwiseOps
+ 
+21:11:50 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+21:12:31 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./main.o   
+Finished building target: bitwiseOps
+ 
+21:12:34 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+21:12:57 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:17:08 **** Clean-only build of configuration Debug for project bitwiseOps ****
+make clean 
+rm -rf ./main.d ./main.o
+rm -rf bitwiseOps
+ 
+23:17:08 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:21:22 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+../testingOfBits.c:15:14: warning: format specifies type 'int *' but the argument has type 'int32_t' (aka 'int') [-Wformat]
+        scanf("%d", number);
+               ~~   ^~~~~~
+../testingOfBits.c:15:14: warning: variable 'number' is uninitialized when used here [-Wuninitialized]
+        scanf("%d", number);
+                    ^~~~~~
+../testingOfBits.c:13:16: note: initialize the variable 'number' to silence this warning
+        int32_t number;
+                      ^
+                       = 0
+2 warnings generated.
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:21:48 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+../testingOfBits.c:15:14: warning: format specifies type 'int *' but the argument has type 'int32_t' (aka 'int') [-Wformat]
+        scanf("%d", number);
+               ~~   ^~~~~~
+1 warning generated.
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:22:35 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:22:39 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:22:45 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:22:53 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:23:00 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:25:05 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:25:28 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:25:32 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:28:30 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:28:43 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:28:57 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:35:54 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:35:56 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:41:18 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:41:21 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:45:57 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:51:32 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+Building file: ../testingOfBits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testingOfBits.d" -MT"testingOfBits.o" -o "testingOfBits.o" "../testingOfBits.c"
+Finished building: ../testingOfBits.c
+ 
+Building target: bitwiseOps
+Invoking: MacOS X C Linker
+gcc  -o "bitwiseOps"  ./testingOfBits.o   
+Finished building target: bitwiseOps
+ 
+23:52:07 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+23:52:13 **** Incremental Build of configuration Debug for project bitwiseOps ****
+make all 
+make: Nothing to be done for `all'.
+09:40:20 **** Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:14:2: error: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        printf("Data = %x", byteData);
+        ^
+../main.c:14:2: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:40:35 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:40:59 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:42:26 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:42:30 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:42:50 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:43:00 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:43:02 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:43:18 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:43:20 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:43:59 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:44:01 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:45:49 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:45:51 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:46:38 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:46:44 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:47:07 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:47:10 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:47:22 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:47:25 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:47:29 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:47:44 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:47:46 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:48:16 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:48:19 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:48:42 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:48:44 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:49:34 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:49:36 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:51:16 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:51:18 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:51:32 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:51:39 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:51:46 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:51:48 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+09:51:59 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:52:15 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+09:52:18 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:07:28 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:07:31 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:07:47 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:07:48 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:10:13 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:10:14 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:10:29 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:10:31 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:10:43 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:10:45 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:14:47 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:21:30: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("BIT EXTRACTION:\n", data);
+               ~~~~~~~~~~~~~~~~~~~  ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:15:08 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:15:10 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:15:20 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:15:22 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:16:14 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:16:21 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:17:59 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:24:2: error: unknown type name 'uint10_t'; did you mean 'uint16_t'?
+        uint10_t temp = 0x0;
+        ^~~~~~~~
+        uint16_t
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h:31:24: note: 'uint16_t' declared here
+typedef unsigned short uint16_t;
+                       ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:18:05 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:18:07 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:18:23 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:24:9: error: expected ';' after expression
+        uint6_t temp = 0x0;
+               ^
+               ;
+../main.c:24:2: error: use of undeclared identifier 'uint6_t'
+        uint6_t temp = 0x0;
+        ^
+../main.c:24:10: error: use of undeclared identifier 'temp'
+        uint6_t temp = 0x0;
+                ^
+../main.c:34:2: error: use of undeclared identifier 'temp'
+        temp = data >> 10;      // or store in data: data >>= 10;
+        ^
+../main.c:35:31: error: use of undeclared identifier 'temp'
+        printf("Data       = %4x\n", temp);
+                                     ^
+5 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:19:01 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:19:04 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:19:59 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:20:01 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:20:23 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:20:25 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:22:36 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:24:11: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+        uint16_t temp = 0x0;
+                 ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:23:38 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:23:44 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:24:45 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:24:47 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:25:10 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:25:13 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+10:25:38 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:28:23 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: bitwisePractice
+Invoking: MacOS X C Linker
+gcc  -o "bitwisePractice"  ./main.o   
+Finished building target: bitwisePractice
+ 
+10:28:54 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.
+14:02:52 **** Incremental Build of configuration Debug for project bitwisePractice ****
+make all 
+make: Nothing to be done for `all'.

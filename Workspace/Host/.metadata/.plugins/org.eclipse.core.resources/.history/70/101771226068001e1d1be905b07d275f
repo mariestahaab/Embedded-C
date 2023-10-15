@@ -1,0 +1,34 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 30, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+bool checkEven(){
+	int32_t input;
+
+	printf("\nEnter a number: ");
+	scanf("%d", &input);
+
+	if(input % 2 == 0)
+		printf("%d is an EVEN number.\n", input);
+	else
+		printf("%d is an ODD number.\n", input);
+
+	return true;
+}
+
+int main(void){
+
+	while(checkEven())
+		;
+
+	getchar();
+
+	return 0;
+}

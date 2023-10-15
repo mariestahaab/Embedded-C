@@ -1,0 +1,6 @@
+18:37:38 **** Incremental Build of configuration Debug for project PointerPractice ****
+make all 
+make: Nothing to be done for `all'.
+
+18:37:39 Build Finished. 0 errors, 0 warnings. (took 137ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PointerPrsctice&apos; to &apos;PointerPractice&apos;" description="Rename resource &apos;PointerPrsctice&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/PointerPrsctice" name="PointerPractice" stamp="1696947910192" updateReferences="true"/>
+</session>

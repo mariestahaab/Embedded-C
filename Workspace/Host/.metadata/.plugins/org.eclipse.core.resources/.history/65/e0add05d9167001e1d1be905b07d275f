@@ -1,0 +1,34 @@
+/*
+ * pointers1.c
+ *
+ *  Created on: Oct 10, 2023
+ *      Author: mariestahaab
+ */
+
+long long int gData = 0x00007FFF8E3C3824;
+
+#include <stdio.h>
+
+int main(void){
+
+	char *pAddress1;
+
+	pAddress1 = (char*)&gData;
+
+	// Pointer exercise lec 80:
+	char value = 100;
+	printf ("Value = %d\n", value);
+
+	char* address = &value;
+	printf ("Address of %d in memory (ptr) = %p\n", value, address);
+
+	char dataFromPtr = *address;
+	printf ("Read Operation: %d\n", dataFromPtr);
+
+	*address = 65;
+	printf ("Value after write operation = %d\n", value);
+
+
+
+	return 0;
+}

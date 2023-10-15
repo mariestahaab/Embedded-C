@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 11, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+void ifCheck(void){
+	int32_t inputA, inputB;
+
+	printf("Enter two numbers: ");
+	scanf("%d %d", &inputA, &inputB);
+
+	if(inputA < inputB){
+		printf("%d is LESS than %d.\n", inputA, inputB);
+
+	}else if(inputA == inputB){
+		printf("%d is EQUAL to %d.\n", inputA, inputB);
+
+	}else if(inputA > inputB){
+		printf("%d is GREATER than %d.\n", inputA, inputB);
+	}
+}
+
+int main(void){
+
+	return 0;
+}
