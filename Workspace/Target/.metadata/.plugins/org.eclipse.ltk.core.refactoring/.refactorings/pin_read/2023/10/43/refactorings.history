@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pin_read/Inc/regAddr.h&apos; to &apos;GPIO_regAddr.h&apos;" description="Rename resource &apos;regAddr.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Inc/regAddr.h" name="GPIO_regAddr.h" stamp="1698093639085" updateReferences="true"/>
+</session>

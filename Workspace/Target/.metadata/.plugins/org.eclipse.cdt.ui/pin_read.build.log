@@ -1,10 +1,17 @@
-15:04:55 **** Incremental Build of configuration Debug for project pin_read ****
+00:43:54 **** Incremental Build of configuration Debug for project pin_read ****
 make -j9 all 
+arm-none-eabi-gcc "../Src/toggle_led_bitFields.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/toggle_led_bitFields.d" -MT"Src/toggle_led_bitFields.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/toggle_led_bitFields.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/pin_read/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
 arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
    text	   data	    bss	    dec	    hex	filename
-    852	      8	   1568	   2428	    97c	pin_read.elf
+    876	     28	   1572	   2476	    9ac	pin_read.elf
 Finished building: default.size.stdout
  
+Finished building: pin_read.list
+ 
 
-15:04:55 Build Finished. 0 errors, 0 warnings. (took 146ms)
+00:43:55 Build Finished. 0 errors, 0 warnings. (took 464ms)
 

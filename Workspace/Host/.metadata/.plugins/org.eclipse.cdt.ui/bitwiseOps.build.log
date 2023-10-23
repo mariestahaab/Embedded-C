@@ -1,6 +1,6 @@
-23:52:13 **** Incremental Build of configuration Debug for project bitwiseOps ****
+16:43:50 **** Incremental Build of configuration Debug for project bitwiseOps ****
 make all 
 make: Nothing to be done for `all'.
 
-23:52:13 Build Finished. 0 errors, 0 warnings. (took 149ms)
+16:43:50 Build Finished. 0 errors, 0 warnings. (took 189ms)
 

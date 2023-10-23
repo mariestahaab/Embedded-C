@@ -1,0 +1,24 @@
+/*
+ * structTypedef.c
+ *
+ *  Created on: Oct 18, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdint.h>
+#include <stdio.h>
+
+typedef struct{			// total size should be 8 bytes, but sizeof() shows 12 byted because of padding.
+
+	char	data1;		// 1 byte
+	int		data2;		// 4 bytes
+	char	data3;		// 1 byte
+	short	data4;		// 2 bytes
+} dataSet_t;
+
+int main(void){
+
+	dataSet_t data;
+
+	return 0;
+}

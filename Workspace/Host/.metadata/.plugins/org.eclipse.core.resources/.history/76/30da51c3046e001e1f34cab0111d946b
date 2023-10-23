@@ -1,0 +1,52 @@
+/*
+ * structExercise_162.c
+ *
+ *  Created on: Oct 18, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdint.h>
+#include <stdio.h>
+
+typedef union{
+
+	uint32_t testPacketValue;
+
+	struct{
+		uint32_t	crc		 :2	;		// use 2-bits	for CRC
+		uint32_t	status	 :1	;		// use 1-bit	for STATUS
+		uint32_t	payload	 :12;		// use 12-bits	for PAYLOAD
+		uint32_t	bat		 :3	;		// use 3-bits	for BAT
+		uint32_t	sensor	 :3	;		// use 3-bits	for SENSOR
+		uint32_t	longAddr :8	;		// use 8-bits	for LONG_ADDR
+		uint32_t	shortAddr:2	;		// use 2-bits	for SHORT_ADDR
+		uint32_t	addrMode :1	;		// use 1-bit	for ADDR_MODE
+	}packetFields;
+
+} Packet_t;
+
+void dispPacketValues(Packet_t *pPkt);
+
+int main(void){
+
+	Packet_t Packet;
+	uint32_t *pPacket = (uint32_t*)&Packet;
+
+	pPacket -> testPacketValue = 0x03FF1234;
+
+	dispPacketValues(pPacket);
+
+	return 0;
+}
+
+void dispPacketValues(Packet_t *pPkt){
+	printf("\nValues are:\n");
+	printf("CRC\t\t: 0x%X\n"		,pPkt -> crc		);
+	printf("STATUS\t\t: 0x%X\n"		,pPkt -> status		);
+	printf("PAYLOAD\t\t: 0x%X\n" 	,pPkt -> payload	);
+	printf("BAT\t\t: 0x%X\n" 		,pPkt -> bat		);
+	printf("SENSOR\t\t: 0x%X\n" 	,pPkt -> sensor		);
+	printf("LONG_ADDR\t: 0x%X\n"	,pPkt -> longAddr	);
+	printf("SHORT_ADDR\t: 0x%X\n" 	,pPkt -> shortAddr	);
+	printf("ADDR_MODE\t: 0x%X\n" 	,pPkt -> addrMode	);
+}

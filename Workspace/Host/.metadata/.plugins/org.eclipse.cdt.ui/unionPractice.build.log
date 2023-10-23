@@ -1,0 +1,6 @@
+13:40:45 **** Incremental Build of configuration Debug for project unionPractice ****
+make all 
+make: Nothing to be done for `all'.
+
+13:40:46 Build Finished. 0 errors, 0 warnings. (took 248ms)
+

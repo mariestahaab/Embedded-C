@@ -29,14 +29,16 @@
  * 		-Base Address for the RCC register is 0x4002 3800.
  * 		-Address Offset for RCC_AHB1ENR - 0x30.
  * 		-Set bit-2 of the RCC_AHB1ENR register to 1.
+ *
  * 	-To set the mode for PC13 as INPUT:
  * 		-Address Offset for GPIOx_MODER - 0x00.
  * 		-Set bits 27, 26 (MODER13) to 0,0.
+ *
  * 	-To READ the value from PC13:
  * 		-Address Offset for GPIOx_IDR - 0x10.
  * 		-Read value of bit-13.
  *
- * 	STEP-2: Produce Output.
+ * STEP-2: Produce Output.
  * 	-Green LED LD2 connected to PA5.
  *	-Base address of GPIO A is 0x4002 0000.
  *
@@ -45,9 +47,11 @@
  *		-Base Address for the RCC register is 0x4002 3800.
  *		-Address Offset for RCC_AHB1ENR - 0x30.
  * 		-Set bit-0 of the RCC_AHB1ENR register to 1.
+ *
  * 	-To set the mode for PA5 as OUTPUT:
  *		-Address Offset for GPIOx_MODER: 0x00.
  *		-Set bits 11, 10 (MODER5) to 0, 1.
+ *
  *	-To WRITE the data to PA5:
  *		-Address Offset for GPIOx_ODR - 0x14.
  *		-SET/CLEAR bit-5 to turn ON/OFF LD2.
@@ -81,9 +85,9 @@ int main(void)
 
     while(1){
 
-    	uint32_t buttonRead = (*pPortCInReg >> 13) & 0x1;
+    	uint32_t buttonRead = ~(*pPortCInReg >> 13);
 
-    	if(~buttonRead & 0x1){
+    	if(buttonRead & 0x1){
     		// Set bit-5 to 1 to turn ON LED.
     		*pPortAOutReg |= (0x1 << 5);
     	}
