@@ -7353,3 +7353,1628 @@ Finished building target: unionPractice
 13:40:45 **** Incremental Build of configuration Debug for project unionPractice ****
 make all 
 make: Nothing to be done for `all'.
+23:48:55 **** Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:49:58 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:13:11: warning: unused variable 'items' [-Wunused-variable]
+        uint32_t items[] = {1, 2, 3};
+                 ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:50:48 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:51:10 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+23:52:08 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:15: warning: incompatible pointer to integer conversion initializing 'uint32_t' (aka 'unsigned int') with an expression of type 'uint32_t[3]' (aka 'unsigned int[3]') [-Wint-conversion]
+        for(uint32_t i = items; i < items+3; i++){
+                     ^   ~~~~~
+../main.c:15:28: warning: ordered comparison between pointer and integer ('uint32_t' (aka 'unsigned int') and 'uint32_t *' (aka 'unsigned int *'))
+        for(uint32_t i = items; i < items+3; i++){
+                                ~ ^ ~~~~~~~
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:52:35 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:52:38 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+23:53:16 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:19:33: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Size of Array = %d\n", sizeof(items));
+                                ~~     ^~~~~~~~~~~~~
+                                %lu
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:53:24 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:53:27 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+23:54:59 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:17: error: variable-sized object may not be initialized
+        uint32_t items[elements] = {1, 2, 3};
+                       ^~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:55:18 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:55:29 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:56:19 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:17: error: variable-sized object may not be initialized
+        uint32_t items[elements] = {1, 2, 3};
+                       ^~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:56:27 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:56:39 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:56:42 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+23:57:36 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:57:41 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+23:58:35 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:22:39: warning: format specifies type 'void *' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        printf("Address of Array[0] = %p\n", items[0]);
+                                      ~~     ^~~~~~~~
+                                      %u
+../main.c:23:39: warning: format specifies type 'void *' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        printf("Address of Array[1] = %p\n", items[1]);
+                                      ~~     ^~~~~~~~
+                                      %u
+../main.c:24:39: warning: format specifies type 'void *' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        printf("Address of Array[2] = %p\n", items[2]);
+                                      ~~     ^~~~~~~~
+                                      %u
+3 warnings generated.
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:59:08 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+23:59:14 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:02:03 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:20:60: warning: format specifies type 'void *' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+                printf("Address of Array[%d] = %p \t Contains: %d\n", i, items[i], items+0);
+                                               ~~                        ^~~~~~~~
+                                               %u
+../main.c:20:70: warning: format specifies type 'int' but the argument has type 'uint32_t *' (aka 'unsigned int *') [-Wformat]
+                printf("Address of Array[%d] = %p \t Contains: %d\n", i, items[i], items+0);
+                                                               ~~                  ^~~~~~~
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:02:27 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:02:31 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:02:51 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:02:53 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:03:10 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:03:12 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:03:22 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:03:25 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:05:45 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:05:48 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:06:15 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:06:18 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:06:36 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:07:01 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:07:13 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:07:20 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:07:25 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:07:47 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:17: error: variable-sized object may not be initialized
+        uint32_t items[elements] = {};
+                       ^~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:07:53 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:15:17: error: variable-sized object may not be initialized
+        uint32_t items[elements] = {1, 2, 3};
+                       ^~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:08:20 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:09:19 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:09:22 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:09:48 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:14:19 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:14:22 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:16:15 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:16:17 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:16:24 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:16:27 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:16:46 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:16:48 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:17:06 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./main.o   
+Finished building target: arraysPractice
+ 
+00:17:09 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:28:17 **** Clean-only build of configuration Debug for project arraysPractice ****
+make clean 
+rm -rf ./main.d ./main.o
+rm -rf arraysPractice
+ 
+00:28:17 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:28:21 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:29:00 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+../arrayToFunction.c:23:4: error: use of undeclared identifier 'items'
+        *(items+2) = 12;
+          ^
+1 error generated.
+make: *** [arrayToFunction.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:29:11 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:29:14 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:29:19 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:29:22 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:31:43 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:31:47 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:32:11 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+../arrayToFunction.c:27:2: error: call to undeclared function 'printarray'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        printarray(data, elements);
+        ^
+../arrayToFunction.c:27:2: note: did you mean 'printArray'?
+../arrayToFunction.c:11:6: note: 'printArray' declared here
+void printArray(uint32_t data[], uint32_t elements);
+     ^
+1 error generated.
+make: *** [arrayToFunction.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:32:18 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:32:21 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:35:46 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+../arrayToFunction.c:11:32: warning: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+void makeArray(uint32_t *data, elements);
+                               ^
+                               int
+../arrayToFunction.c:40:32: warning: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+void makeArray(uint32_t *data, elements){
+                               ^
+                               int
+2 warnings generated.
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:35:57 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+../arrayToFunction.c:11:32: warning: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+void makeArray(uint32_t *data, elements);
+                               ^
+                               int
+../arrayToFunction.c:40:6: error: conflicting types for 'makeArray'
+void makeArray(uint32_t *data, uint32_t elements){
+     ^
+../arrayToFunction.c:11:6: note: previous declaration is here
+void makeArray(uint32_t *data, elements);
+     ^
+1 warning and 1 error generated.
+make: *** [arrayToFunction.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:36:05 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:36:07 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:39:34 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:39:36 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:41:03 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:41:07 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:41:27 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:41:30 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:41:58 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+../arrayToFunction.c:24:11: error: redefinition of 'data'
+        uint32_t data[elements];
+                 ^
+../arrayToFunction.c:17:11: note: previous definition is here
+        uint32_t data[elements];
+                 ^
+1 error generated.
+make: *** [arrayToFunction.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:42:07 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:42:10 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:42:19 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:42:21 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:42:35 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:42:37 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:44:59 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:45:01 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:46:29 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:46:32 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:46:44 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:46:57 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+../arrayToFunction.c:35:13: warning: incompatible pointer to integer conversion passing 'uint32_t[elements]' (aka 'unsigned int[elements]') to parameter of type 'uint32_t' (aka 'unsigned int') [-Wint-conversion]
+        printArray(data, elements);
+                   ^~~~
+../arrayToFunction.c:12:26: note: passing argument to parameter 'data' here
+void printArray(uint32_t data, uint32_t elements);
+                         ^
+../arrayToFunction.c:50:72: error: indirection requires pointer operand ('uint32_t' (aka 'unsigned int') invalid)
+                printf("Address of Array[%d] = %p \t Contains: 0x%X\n", i, (data+i), *(data+i));
+                                                                                     ^~~~~~~~~
+1 warning and 1 error generated.
+make: *** [arrayToFunction.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:47:10 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../arrayToFunction.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayToFunction.d" -MT"arrayToFunction.o" -o "arrayToFunction.o" "../arrayToFunction.c"
+Finished building: ../arrayToFunction.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./arrayToFunction.o   
+Finished building target: arraysPractice
+ 
+00:47:13 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:48:37 **** Clean-only build of configuration Debug for project arraysPractice ****
+make clean 
+rm -rf ./arrayToFunction.d ./arrayToFunction.o
+rm -rf arraysPractice
+ 
+00:48:38 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:48:40 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:50:00 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:50:03 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:50:12 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:50:14 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:52:55 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:53:33 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:53:35 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:54:21 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:54:23 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:55:31 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:55:34 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:56:04 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:56:06 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:56:29 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+00:56:32 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+00:59:02 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+01:00:09 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+01:00:12 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+01:04:27 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+01:04:29 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+01:05:17 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+01:05:19 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+01:09:12 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+01:09:16 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+01:11:43 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+01:15:19 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+Building file: ../swapArrays.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"swapArrays.d" -MT"swapArrays.o" -o "swapArrays.o" "../swapArrays.c"
+Finished building: ../swapArrays.c
+ 
+Building target: arraysPractice
+Invoking: MacOS X C Linker
+gcc  -o "arraysPractice"  ./swapArrays.o   
+Finished building target: arraysPractice
+ 
+01:15:23 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:24:18 **** Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:25:25 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:25:38 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:25:59 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:26:04 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:27:38 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:27:41 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:27:54 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:27:56 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:28:08 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:28:10 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:30:23 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:20:33: warning: passing 'uint8_t[7]' (aka 'unsigned char[7]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        for(uint32_t i = 0; i < strlen(msg1); i++){
+                                       ^~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:82:28: note: passing argument to parameter '__s' here
+size_t   strlen(const char *__s);
+                            ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:31:23 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:31:26 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:31:52 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:31:55 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:32:00 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:32:03 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:32:46 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:32:48 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:32:56 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:33:30 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:33:36 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:34:29 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:34:30 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:35:11 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:35:13 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:35:25 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:35:27 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:35:34 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:35:37 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:35:38 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:36:01 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:36:03 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:36:16 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:36:18 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:37:00 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:31:33: warning: passing 'uint8_t[7]' (aka 'unsigned char[7]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        printf("strlen: %d \n", strlen(msg2));
+                                       ^~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:82:28: note: passing argument to parameter '__s' here
+size_t   strlen(const char *__s);
+                            ^
+../main.c:31:26: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("strlen: %d \n", strlen(msg2));
+                        ~~      ^~~~~~~~~~~~
+                        %lu
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:37:16 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:31:34: warning: passing 'uint8_t[7]' (aka 'unsigned char[7]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        printf("strlen: %lu \n", strlen(msg2));
+                                        ^~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:82:28: note: passing argument to parameter '__s' here
+size_t   strlen(const char *__s);
+                            ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+10:37:34 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:38:42 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+10:38:49 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+16:30:12 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:32:34: warning: passing 'uint8_t[7]' (aka 'unsigned char[7]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        printf("strlen: %lu \n", strlen(msg2));
+                                        ^~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:82:28: note: passing argument to parameter '__s' here
+size_t   strlen(const char *__s);
+                            ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./main.o   
+Finished building target: stringsPractice
+ 
+16:30:33 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+17:01:37 **** Clean-only build of configuration Debug for project stringsPractice ****
+make clean 
+rm -rf ./main.d ./main.o
+rm -rf stringsPractice
+ 
+17:01:38 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+Finished building: ../stringLiteral.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./stringLiteral.o   
+Finished building target: stringsPractice
+ 
+17:01:41 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:13:30 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+../stringLiteral.c:15:11: error: definition of variable with array type needs an explicit size or an initializer
+        uint32_t name[];
+                 ^
+1 error generated.
+make: *** [stringLiteral.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:13:53 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+Finished building: ../stringLiteral.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./stringLiteral.o   
+Finished building target: stringsPractice
+ 
+18:13:57 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:14:29 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:15:30 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+../stringLiteral.c:22:15: warning: unknown escape sequence '\^' [-Wunknown-escape-sequence]
+        printf("Hi, [\^n]%s!", name);
+                     ^~
+1 warning generated.
+Finished building: ../stringLiteral.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./stringLiteral.o   
+Finished building target: stringsPractice
+ 
+18:15:37 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+Finished building: ../stringLiteral.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./stringLiteral.o   
+Finished building target: stringsPractice
+ 
+18:15:39 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:18:08 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+../stringLiteral.c:22:16: warning: '^s' is not a valid object format flag [-Wformat]
+        printf("Hi, %[^s]s!", name);
+                      ^~
+1 warning generated.
+Finished building: ../stringLiteral.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./stringLiteral.o   
+Finished building target: stringsPractice
+ 
+18:18:21 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+Finished building: ../stringLiteral.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./stringLiteral.o   
+Finished building target: stringsPractice
+ 
+18:18:25 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:19:01 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../stringLiteral.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stringLiteral.d" -MT"stringLiteral.o" -o "stringLiteral.o" "../stringLiteral.c"
+Finished building: ../stringLiteral.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./stringLiteral.o   
+Finished building target: stringsPractice
+ 
+18:19:03 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:20:26 **** Clean-only build of configuration Debug for project stringsPractice ****
+make clean 
+rm -rf ./stringLiteral.d ./stringLiteral.o
+rm -rf stringsPractice
+ 
+18:20:27 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../exercise_189.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_189.d" -MT"exercise_189.o" -o "exercise_189.o" "../exercise_189.c"
+Finished building: ../exercise_189.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./exercise_189.o   
+Finished building target: stringsPractice
+ 
+18:20:29 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+make: Nothing to be done for `all'.
+18:21:09 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../exercise_189.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_189.d" -MT"exercise_189.o" -o "exercise_189.o" "../exercise_189.c"
+Finished building: ../exercise_189.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./exercise_189.o   
+Finished building target: stringsPractice
+ 

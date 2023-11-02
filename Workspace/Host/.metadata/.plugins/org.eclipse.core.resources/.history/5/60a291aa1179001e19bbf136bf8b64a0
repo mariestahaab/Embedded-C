@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 1, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdint.h>
+#include <stdio.h>
+
+int main(void){
+
+	uint32_t items[] = {1, 2, 3};
+
+	for(uint32_t i = 0; i < 3; i++){
+		printf("%d\n", items[i]);
+	}
+
+	return 0;
+}

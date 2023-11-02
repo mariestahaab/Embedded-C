@@ -1,0 +1,1 @@
+swapArrays.o: ../swapArrays.c

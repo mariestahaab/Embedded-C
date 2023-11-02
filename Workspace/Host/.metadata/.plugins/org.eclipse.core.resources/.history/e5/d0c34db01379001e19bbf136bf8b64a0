@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 1, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdint.h>
+#include <stdio.h>
+
+int main(void){
+
+	const uint32_t elements = 7;
+
+	uint32_t items[elements] = {1, 2, 3};
+
+	printf("Base address of Array = %p\n\n", items);
+
+	for(uint32_t i = 0; i < elements; i++){
+		printf("Address of Array[%d] = %p \t Contains: %d\n", i, items+i, *(items+i));
+	}
+
+	printf("\nSize of Array = %lu\n", sizeof(items));
+
+	return 0;
+}

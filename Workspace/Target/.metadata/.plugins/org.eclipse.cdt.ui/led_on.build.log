@@ -1,10 +1,20 @@
-09:03:20 **** Incremental Build of configuration Debug for project led_on ****
+17:07:22 **** Incremental Build of configuration Debug for project led_on ****
 make -j9 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "led_on.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/mariestahaab/Documents/GitHub/Embedded-C/Workspace/Target/led_on/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_on.elf
+ 
 arm-none-eabi-size   led_on.elf 
+arm-none-eabi-objdump -h -S  led_on.elf  > "led_on.list"
    text	   data	    bss	    dec	    hex	filename
     776	      8	   1568	   2352	    930	led_on.elf
 Finished building: default.size.stdout
  
+Finished building: led_on.list
+ 
 
-09:03:20 Build Finished. 0 errors, 0 warnings. (took 169ms)
+17:07:23 Build Finished. 0 errors, 0 warnings. (took 364ms)
 

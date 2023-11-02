@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 2, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdint.h>
+#include <stdio.h>
+
+int main(void){
+
+	uint8_t msg[] = "Hello!";
+
+	printf("%s \n", msg);
+	printf("%lu \n", sizeof(msg));
+
+	return 0;
+}

@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 1, 2023
+ *      Author: mariestahaab
+ */
+
+#include <stdint.h>
+#include <stdio.h>
+
+int main(void){
+
+	const uint32_t elements = 7;
+
+	uint32_t items[elements] = {1, 2, 3};
+
+	for(uint32_t i = 0; i < elements; i++){
+		printf("%d\n", items[i]);
+	}
+
+	printf("Address of Array = %p\n", items);
+	printf("Address of Array[0] = %p\n", items+0);
+	printf("Address of Array[1] = %p\n", items+1);
+	printf("Address of Array[2] = %p\n", items+2);
+
+	printf("Size of Array = %lu\n", sizeof(items));
+
+	return 0;
+}

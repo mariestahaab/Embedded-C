@@ -1,0 +1,15 @@
+18:21:09 **** Incremental Build of configuration Debug for project stringsPractice ****
+make all 
+Building file: ../exercise_189.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"exercise_189.d" -MT"exercise_189.o" -o "exercise_189.o" "../exercise_189.c"
+Finished building: ../exercise_189.c
+ 
+Building target: stringsPractice
+Invoking: MacOS X C Linker
+gcc  -o "stringsPractice"  ./exercise_189.o   
+Finished building target: stringsPractice
+ 
+
+18:21:09 Build Finished. 0 errors, 0 warnings. (took 747ms)
+

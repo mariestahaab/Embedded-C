@@ -1,0 +1,6 @@
+01:15:23 **** Incremental Build of configuration Debug for project arraysPractice ****
+make all 
+make: Nothing to be done for `all'.
+
+01:15:23 Build Finished. 0 errors, 0 warnings. (took 162ms)
+
